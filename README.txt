@@ -1,5 +1,6 @@
 Porpose: print on Kindle 3's screen a png with clock and weather information.
 
+<img src="https://github.com/domenan/kindle_weather/blob/master/final.png" align="center" width="600px" height="800px"/>
 
 INSTALLATION:
 
