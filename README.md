@@ -1,4 +1,4 @@
-Porpose: print on Kindle 3's screen a png with clock and weather information.
+Purpose: print on Kindle 3's screen a png with clock and weather information.
 
 <img src="https://github.com/domenan/kindle_weather/blob/master/final.png" align="center" width="600px" height="800px"/>
 
@@ -16,9 +16,9 @@ Step 3: Setup cron to parse the weather every 6h and update the screen every 1m.
 * * * * * sh /mnt/us/kindle_weather/time_update.sh
 0 */6 * * * /mnt/us/python/bin/python2.7 /mnt/us/kindle_weather/get_weather.py
 
-Step 4: login to www.apixu.com and optain a free api key. Add the api key to line 16 of file get_weather.py.
+Step 4: login to www.apixu.com and obtain a free api key. Add the api key to line 16 of file get_weather.py.
 
-Step 5: Change weather location editing line 40 of file get_weather.py. Check on apixu websize for possilbe options as city or postcode.
+Step 5: Change weather location editing line 40 of file get_weather.py. Check on apixu website for possible options as city or postcode.
 
 step 6: run the following command from terminal (in my case a restart was required due to cron)
 /etc/init.d/cron restart
@@ -27,3 +27,5 @@ step 6: run the following command from terminal (in my case a restart was requir
 HOW TO USE:
 
 Press shift + c to start the scripts and hope for the best.
+
+
