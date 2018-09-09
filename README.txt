@@ -1,5 +1,8 @@
 Porpose: print on Kindle 3's screen a png with clock and weather information.
 
+![alt text](https://github.com/domenan/kindle_weather/blob/master/final.png)
+
+
 INSTALLATION:
 
 Step 1: Copy kindle_weather folder in kindle's folder /mnt/us.
