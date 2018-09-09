@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="500" width="600"  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+<g transform="scale(0.33) translate(1200 47)">
+<image width="512" height="512" xlink:href="ICON_ZERO"/>
+</g>
+<g transform="scale(0.20) translate(244 1050)">
+<image width="512" height="512" xlink:href="ICON_ONE"/>
+</g>
+<g transform="scale(0.20) translate(1244 1050)">
+<image width="512" height="512" xlink:href="ICON_TWO"/>
+</g>
+<g transform="scale(0.20) translate(2244 1050)">
+<image width="512" height="512" xlink:href="ICON_THREE"/>
+</g>
+
+<g font-family="DejaVu Sans:">
+<text style="text-anchor:start;" font-size="40px" y="40" x="20">TODAY</text>
+
+<text style="text-anchor:start;" font-size="20px" y="75" x="20">Weather:</text>
+<text style="text-anchor:start;" font-size="20px" y="100" x="20">Max:</text>
+<text style="text-anchor:start;" font-size="20px" y="125" x="20">Min:</text>
+<text style="text-anchor:start;" font-size="20px" y="150" x="20">RH:</text>
+<text style="text-anchor:start;" font-size="20px" y="175" x="20">Wind:</text>
+<text style="text-anchor:start;" font-size="20px" y="100" x="185">Rain:</text>
+<text style="text-anchor:start;" font-size="20px" y="125" x="185">UV:</text>
+<text style="text-anchor:start;" font-size="20px" y="150" x="185">Sunrise:</text>
+<text style="text-anchor:start;" font-size="20px" y="175" x="185">Sunset:</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="75" x="120">WEATHER_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="100" x="85">MAX_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="125" x="85">MIN_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="150" x="85">RH_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="175" x="85">WIND_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="100" x="275">RAIN_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="125" x="275">UV_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="150" x="275">SUNRISE_ZERO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="20px" y="175" x="275">SUNSET_ZERO</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="342" x="20">DAY_ONE</text>
+<text style="text-anchor:start;" font-size="15px" y="360" x="20">Weather:</text>
+<text style="text-anchor:start;" font-size="15px" y="396" x="20">Max:</text>
+<text style="text-anchor:start;" font-size="15px" y="414" x="20">Min:</text>
+<text style="text-anchor:start;" font-size="15px" y="432" x="20">RH:</text>
+<text style="text-anchor:start;" font-size="15px" y="450" x="20">Wind:</text>
+<text style="text-anchor:start;" font-size="15px" y="468" x="20">Rain:</text>
+<text style="text-anchor:start;" font-size="15px" y="486" x="20">UV:</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="378" x="20">WEATHER_ONE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="396" x="80">MAX_ONE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="414" x="80">MIN_ONE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="432" x="80">RH_ONE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="450" x="80">WIND_ONE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="468" x="80">RAIN_ONE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="486" x="80">UV_ONE</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="342" x="220">DAY_TWO</text>
+<text style="text-anchor:start;" font-size="15px" y="360" x="220">Weather:</text>
+<text style="text-anchor:start;" font-size="15px" y="396" x="220">Max:</text>
+<text style="text-anchor:start;" font-size="15px" y="414" x="220">Min:</text>
+<text style="text-anchor:start;" font-size="15px" y="432" x="220">RH:</text>
+<text style="text-anchor:start;" font-size="15px" y="450" x="220">Wind:</text>
+<text style="text-anchor:start;" font-size="15px" y="468" x="220">Rain:</text>
+<text style="text-anchor:start;" font-size="15px" y="486" x="220">UV:</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="378" x="220">WEATHER_TWO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="396" x="280">MAX_TWO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="414" x="280">MIN_TWO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="432" x="280">RH_TWO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="450" x="280">WIND_TWO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="468" x="280">RAIN_TWO</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="486" x="280">UV_TWO</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="342" x="420">DAY_THREE</text>
+<text style="text-anchor:start;" font-size="15px" y="360" x="420">Weather:</text>
+<text style="text-anchor:start;" font-size="15px" y="396" x="420">Max:</text>
+<text style="text-anchor:start;" font-size="15px" y="414" x="420">Min:</text>
+<text style="text-anchor:start;" font-size="15px" y="432" x="420">RH:</text>
+<text style="text-anchor:start;" font-size="15px" y="450" x="420">Wind:</text>
+<text style="text-anchor:start;" font-size="15px" y="468" x="420">Rain:</text>
+<text style="text-anchor:start;" font-size="15px" y="486" x="420">UV:</text>
+
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="378" x="420">WEATHER_THREE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="396" x="480">MAX_THREE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="414" x="480">MIN_THREE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="432" x="480">RH_THREE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="450" x="480">WIND_THREE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="468" x="480">RAIN_THREE</text>
+<text style="text-anchor:start;" font-weight="bold" font-size="15px" y="486" x="480">UV_THREE</text>
+</g>
+
+<path d="M 200 200 L 205 200 L 205 490 L 200 490 z"/>
+<path d="M 400 200 L 405 200 L 405 490 L 400 490 z"/>
+<path d="M 10 200 L 590 200 L 590 205 L 10 205 z"/>
+
+</svg>

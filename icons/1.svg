@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="1.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata80"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs78" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1053"
+   id="namedview76"
+   showgrid="false"
+   inkscape:zoom="0.921875"
+   inkscape:cx="277.09181"
+   inkscape:cy="181.55106"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+
+<g
+   id="g73">
+	<g
+   id="g71">
+		<path
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   fill="#1D1D1B"
+   d="M177.615,288c7.438-36.521,39.688-64,78.396-64    c38.709,0,70.958,27.479,78.376,64h32c-7.834-54.125-54.084-96-110.376-96c-56.271,0-102.541,41.875-110.375,96H177.615z     M256.011,160c8.833,0,16-7.167,16-16v-32c0-8.833-7.167-16-16-16c-8.832,0-16,7.167-16,16v32    C240.011,152.833,247.179,160,256.011,160z M403.073,156.917c-6.249-6.25-16.374-6.25-22.625,0l-22.625,22.625    c-6.249,6.25-6.249,16.375,0,22.625c6.251,6.25,16.376,6.25,22.625,0l22.625-22.625    C409.323,173.292,409.323,163.167,403.073,156.917z M154.177,179.542l-22.625-22.625c-6.249-6.25-16.373-6.25-22.625,0    c-6.249,6.25-6.249,16.375,0,22.625l22.625,22.625c6.252,6.25,16.376,6.25,22.625,0    C160.429,195.917,160.429,185.792,154.177,179.542z M352.011,320h-192c-8.832,0-16,7.167-16,16s7.168,16,16,16h192    c8.833,0,16-7.167,16-16S360.844,320,352.011,320z M320.011,384h-128c-8.832,0-16,7.167-16,16s7.168,16,16,16h128    c8.833,0,16-7.167,16-16S328.844,384,320.011,384z"
+   id="path69" />
+	</g>
+</g>
+</svg>
