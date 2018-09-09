@@ -13,7 +13,7 @@ from weatherConditions import *
 # Variables
 ####################
 
-api_key = 'xxxxxxxxxxxxxxxxxx'
+api_key = '1a81c76803d14b50bec145925180309'
 client = ApixuClient(api_key)
 
 parsedDate = []
@@ -145,68 +145,68 @@ os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +275+15
 
 # Add weather one
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + parsedShortDesc[1] + '" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +20+362 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +20+361 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMaxTemp[1]) + '°C" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+380 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+379 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMinTemp[1]) + '°C" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+398 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+397 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedHumidity[1]) + '%" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+416 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+415 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMaxWind[1]) + 'kph" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+434 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+433 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedTotalPrecip[1]) + 'mm" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+452 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+451 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedUV[1]) + '" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+470 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +80+469 -composite " + pngOutput)
 
 # Add weather two
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + parsedShortDesc[2] + '" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +220+362 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +220+361 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMaxTemp[2]) + '°C" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+380 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+379 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMinTemp[2]) + '°C" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+398 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+397 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedHumidity[2]) + '%" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+416 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+415 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMaxWind[2]) + 'kph" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+434 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+433 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedTotalPrecip[2]) + 'mm" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+452 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+451 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedUV[2]) + '" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+470 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +280+469 -composite " + pngOutput)
 
 # Add weather three
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + parsedShortDesc[3] + '" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +420+362 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +420+361 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMaxTemp[3]) + '°C" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+380 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+379 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMinTemp[3]) + '°C" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+398 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+397 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedHumidity[3]) + '%" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+416 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+415 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedMaxWind[3]) + 'kph" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+434 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+433 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedTotalPrecip[3]) + 'mm" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+452 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+451 -composite " + pngOutput)
 
 os.system(binConvert + ' -gravity West -background "rgba(0,0,0,0.0)" -fill black -font ' + fontDefault + ' -density 96 -pointsize 15 label:"' + str(parsedUV[3]) + '" ' + pngTextTmp)
-os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+470 -composite " + pngOutput)
+os.system(binConvert + ' ' +  pngOutput + " " + pngTextTmp + " -geometry +480+469 -composite " + pngOutput)
 
 #y-fontSize-3
