@@ -1,4 +1,4 @@
-Porpose: print on Kindle screen a png with clock and weather information.
+Porpose: print on Kindle 3's screen a png with clock and weather information.
 
 INSTALLATION:
 
