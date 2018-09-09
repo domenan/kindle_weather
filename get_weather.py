@@ -13,7 +13,7 @@ from weatherConditions import *
 # Variables
 ####################
 
-api_key = '1a81c76803d14b50bec145925180309'
+api_key = 'xxxxxxxxxxxxxxxxxx'
 client = ApixuClient(api_key)
 
 parsedDate = []
